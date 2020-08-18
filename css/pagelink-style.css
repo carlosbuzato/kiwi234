@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,800&display=swap');
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 100%);
+    ;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.container {
+    text-align: center;
+    display: grid;
+    align-content: center;
+    min-height: 100vh;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-bottom: 0;
+    ;
+}
+
+h1 {
+    color: #3a3a3a;
+}
+
+p {
+    color: #3a3a3a;
+}
+
+.btn {
+    background: #00dd80;
+    border-radius: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.18);
+}
+
+.btn:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn a {
+    padding: 15px 30px !important;
+    color: #fff !important;
+    text-decoration: none;
+    display: block;
+}
